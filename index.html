@@ -354,6 +354,38 @@
                 font-size: 10px;
             }
         }
+
+        @media (max-width: 480px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .section-image {
+                height: 40vh;
+                background-size: contain;
+            }
+
+            .content {
+                height: 60vh;
+                padding: 10px;
+            }
+
+            .content h1 {
+                font-size: 1.2em;
+                margin-top: 20px;
+            }
+
+            .content p {
+                font-size: 12px;
+                margin-top: 10px;
+                line-height: 16px;
+            }
+
+            .button {
+                padding: 5px 20px;
+                font-size: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -381,8 +413,7 @@
             <a href="#" class="button">Click Me</a>
         </div>
 
-        <div class="section-image">
-        </div>
+        <div class="section-image"></div>
     </div>
 </body>
 
