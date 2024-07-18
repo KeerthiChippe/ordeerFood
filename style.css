@@ -95,7 +95,7 @@ body {
     margin-left: 39px;
 }
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .topnav a {
         font-size: 18px;
         padding: 12px 5px;
@@ -112,7 +112,7 @@ body {
         margin-top: 50px;
         line-height: 28px;
     }
-} */
+}
 
 @media (max-width: 991px) {
     .topnav a {
@@ -137,7 +137,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
@@ -165,6 +165,12 @@ body {
     .button {
         padding: 10px 40px;
         font-size: 12px;
+    }
+} */
+
+@media screen and (max-width: 500px) {
+    .responsive {
+        padding: 0px 20px;
     }
 }
 
