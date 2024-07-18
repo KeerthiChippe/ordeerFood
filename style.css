@@ -28,6 +28,10 @@ body {
     letter-spacing: 2px;
 }
 
+.topnav a:hover {
+    color: black;
+}
+
 .topnav img {
     height: 48px;
     width: auto;
@@ -54,11 +58,10 @@ body {
     background-image: url('./pic1.jpg');
     background-size: cover;
     background-position: center;
-    max-width: 100%;
 }
 
 .content h1 {
-    font-size: 5vw;
+    font-size: 3.5em;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
     margin-top: 130px;
@@ -67,7 +70,7 @@ body {
 }
 
 .content p {
-    font-size: 1.48vw;
+    font-size: 21.5px;
     margin-top: 69px;
     margin-bottom: 53px;
     margin-left: 39px;
@@ -86,13 +89,13 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.9vw;
+    font-size: 14px;
     margin: 16px 2px;
     cursor: pointer;
     margin-left: 39px;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .topnav a {
         font-size: 18px;
         padding: 12px 5px;
@@ -100,31 +103,31 @@ body {
     }
 
     .content h1 {
-        font-size: 5vw;
+        font-size: 3em;
         margin-top: 100px;
     }
 
     .content p {
-        font-size: 1.48vw;
+        font-size: 18px;
         margin-top: 50px;
         line-height: 28px;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .topnav a {
-        font-size: 14px;
-        padding: 8px 5px;
+        font-size: 16px;
+        padding: 10px 5px;
         margin: 0 10px;
     }
 
     .content h1 {
-        font-size: 5vw;
+        font-size: 2.5em;
         margin-top: 80px;
     }
 
     .content p {
-        font-size: 1.48vw;
+        font-size: 16px;
         margin-top: 40px;
         line-height: 24px;
     }
@@ -149,19 +152,19 @@ body {
     }
 
     .content h1 {
-        font-size: 5vw;
+        font-size: 2em;
         margin-top: 40px;
     }
 
     .content p {
-        font-size: 1.48vw;
+        font-size: 14px;
         margin-top: 30px;
         line-height: 20px;
     }
 
     .button {
         padding: 10px 40px;
-        font-size: 0.9vw;
+        font-size: 12px;
     }
 }
 
@@ -171,7 +174,7 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .topnav {
         flex-wrap: wrap;
     }
@@ -188,19 +191,19 @@ body {
     }
 
     .content h1 {
-        font-size: 5vw;
+        font-size: 1.5em;
         margin-top: 20px;
     }
 
     .content p {
-        font-size: 1.48vw;
+        font-size: 12px;
         margin-top: 20px;
         line-height: 18px;
     }
 
     .button {
         padding: 8px 30px;
-        font-size: o.9vw;
+        font-size: 10px;
     }
 }
 
@@ -221,18 +224,18 @@ body {
     }
 
     .content h1 {
-        font-size: 5vw;
+        font-size: 1.2em;
         margin-top: 20px;
     }
 
     .content p {
-        font-size: 1.48vw;
+        font-size: 12px;
         margin-top: 10px;
         line-height: 16px;
     }
 
     .button {
         padding: 5px 20px;
-        font-size: 0.9vw;
+        font-size: 10px;
     }
-}
+} */
