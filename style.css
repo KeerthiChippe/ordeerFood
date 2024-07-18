@@ -174,7 +174,7 @@ body {
     }
 }
 
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
     .topnav {
         flex-wrap: wrap;
     }
@@ -238,4 +238,4 @@ body {
         padding: 5px 20px;
         font-size: 10px;
     }
-} */
+}
